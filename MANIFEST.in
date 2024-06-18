@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include batch_converter *.css
+recursive-include batch_converter *.csv
+recursive-include batch_converter *.html
+recursive-include batch_converter *.ico
+recursive-include batch_converter *.js
+recursive-include batch_converter *.json
+recursive-include batch_converter *.md
+recursive-include batch_converter *.png
+recursive-include batch_converter *.py
+recursive-include batch_converter *.svg
+recursive-include batch_converter *.txt
+recursive-exclude batch_converter *.pyc
