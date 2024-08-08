@@ -188,3 +188,10 @@ user_data_fields = [
 #	"batch_converter.auth.validate"
 # ]
 
+app_include_js = "/assets/batch_converter/js/convert_batch.js"
+
+doc_events = {
+    "Item": {
+        "refresh": "batch_converter.batch_converter.doctype.item.convert_to_batch"
+    }
+}
